@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Andrei\Documents\GitHub\fase_cw\coursework.gpr
+20200416142118
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Documents\GitHub\fase_cw\obj\test.o
+C:\Users\Andrei\Documents\GitHub\fase_cw\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Documents\GitHub\fase_cw\obj\
+-LC:\Users\Andrei\Documents\GitHub\fase_cw\obj\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

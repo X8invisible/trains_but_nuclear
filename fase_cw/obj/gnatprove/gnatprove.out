@@ -1,0 +1,53 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow    Interval   CodePeer      Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------------------
+Data Dependencies                 .         .           .          .            .           .          .
+Flow Dependencies                 .         .           .          .            .           .          .
+Initialization                    4         4           .          .            .           .          .
+Non-Aliasing                      .         .           .          .            .           .          .
+Run-time Checks                  90         .          46          .    44 (CVC4)           .          .
+Assertions                       12         .           .          .    12 (CVC4)           .          .
+Functional Contracts             20         .           .          .    20 (CVC4)           .          .
+LSP Verification                  .         .           .          .            .           .          .
+--------------------------------------------------------------------------------------------------------
+Total                           126    4 (3%)    46 (37%)          .     76 (60%)           .          .
+
+
+max steps used for successful proof: 2485
+
+Analyzed 3 units
+in unit cw, 14 subprograms and packages out of 14 analyzed
+  cw at cw.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  cw.ConnectedCarriages at cw.ads:82 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  cw.EmptyCarriage at cw.ads:52 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (5 checks)
+  cw.IsTrainMoving at cw.ads:85 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  cw.LoadCarriage at cw.ads:58 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  cw.LoadRod at cw.ads:61 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  cw.LoadedRods at cw.ads:83 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  cw.MaintenanceModeOff at cw.ads:70 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  cw.MaintenanceModeOn at cw.ads:67 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (5 checks)
+  cw.MoveTrain at cw.ads:79 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (12 checks)
+  cw.RefillWater at cw.ads:76 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  cw.UnloadCarriage at cw.ads:55 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (4 checks)
+  cw.UnloadRod at cw.ads:64 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  cw.UpdateStats at cw.ads:73 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (27 checks)
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:1 skipped
+in unit test, 14 subprograms and packages out of 14 analyzed
+  test at test.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  test.ConnectedCarriages at test.ads:81 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  test.EmptyCarriage at test.ads:51 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (5 checks)
+  test.IsTrainMoving at test.ads:84 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  test.LoadCarriage at test.ads:57 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  test.LoadRod at test.ads:60 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  test.LoadedRods at test.ads:82 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  test.MaintenanceModeOff at test.ads:69 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  test.MaintenanceModeOn at test.ads:66 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (5 checks)
+  test.MoveTrain at test.ads:78 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (12 checks)
+  test.RefillWater at test.ads:75 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  test.UnloadCarriage at test.ads:54 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (4 checks)
+  test.UnloadRod at test.ads:63 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  test.UpdateStats at test.ads:72 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (27 checks)

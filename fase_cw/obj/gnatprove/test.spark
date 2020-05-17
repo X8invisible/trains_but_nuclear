@@ -1,0 +1,3683 @@
+{
+  "spark": [
+    {
+      "name": "test",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.IsTrainMoving",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 84
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.EmptyCarriage",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 51
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.UnloadCarriage",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 54
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.LoadCarriage",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 57
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.LoadedRods",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 82
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.LoadRod",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 60
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.UnloadRod",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 63
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.MaintenanceModeOn",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 66
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.MaintenanceModeOff",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 69
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.UpdateStats",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 72
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.RefillWater",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 75
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.MoveTrain",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 78
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "test.ConnectedCarriages",
+      "sloc": [
+        {
+          "file": "test.ads",
+          "line": 81
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "test.adb",
+      "line": 121,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "test.adb",
+      "line": 122,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "test.adb",
+      "line": 99,
+      "col": 79,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 99,
+      "col": 71,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 99,
+      "col": 89,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 101,
+      "col": 67,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 101,
+      "col": 77,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 101,
+      "col": 77,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 101,
+      "col": 84,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 101,
+      "col": 51,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 103,
+      "col": 64,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 103,
+      "col": 64,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 105,
+      "col": 69,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 105,
+      "col": 80,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 105,
+      "col": 80,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 105,
+      "col": 88,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 105,
+      "col": 55,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 107,
+      "col": 78,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 107,
+      "col": 70,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 107,
+      "col": 89,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 107,
+      "col": 89,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 127,
+      "col": 71,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 127,
+      "col": 89,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 132,
+      "col": 44,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 132,
+      "col": 82,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "interval"
+    },
+    {
+      "file": "test.adb",
+      "line": 9,
+      "col": 104,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.EmptyCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 51
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 9,
+      "check_col": 104,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 9,
+      "col": 33,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "test.EmptyCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 51
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 84,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 9,
+      "check_col": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 9,
+      "col": 33,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "test.EmptyCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 51
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 21,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 9,
+      "check_col": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 10,
+      "col": 10,
+      "rule": "VC_LOOP_VARIANT",
+      "severity": "info",
+      "entity": {
+        "name": "test.EmptyCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 51
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 10,
+      "check_col": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 53,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.EmptyCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 51
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 57,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 53,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 17,
+      "col": 43,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UnloadCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 53,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 17,
+      "check_col": 43,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 18,
+      "col": 40,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UnloadCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 18,
+      "check_col": 40,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 56,
+      "col": 98,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UnloadCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 56,
+      "check_col": 98,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 56,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.UnloadCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 56,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 24,
+      "col": 40,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.LoadCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 57
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 53,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 24,
+      "check_col": 40,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 59,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.LoadCarriage",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 57
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 59,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 85,
+      "col": 28,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.LoadedRods",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 82
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 392,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 192,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 82,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 42,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 85,
+      "check_col": 28,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 5,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 62,
+      "col": 15,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.LoadRod",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 60
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 33,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 62,
+      "check_col": 15,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 65,
+      "col": 15,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.UnloadRod",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 63
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 33,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 65,
+      "check_col": 15,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 50,
+      "col": 83,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MaintenanceModeOn",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 50,
+      "check_col": 83,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 50,
+      "col": 36,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "test.MaintenanceModeOn",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 21,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 50,
+      "check_col": 36,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 50,
+      "col": 36,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "test.MaintenanceModeOn",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 74,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 50,
+      "check_col": 36,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 51,
+      "col": 13,
+      "rule": "VC_LOOP_VARIANT",
+      "severity": "info",
+      "entity": {
+        "name": "test.MaintenanceModeOn",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 51,
+      "check_col": 13,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 68,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.MaintenanceModeOn",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 70,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 26,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 68,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 71,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.MaintenanceModeOff",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 69
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 26,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 71,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 99,
+      "col": 89,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 9877,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 99,
+      "check_col": 89,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 101,
+      "col": 51,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 22717,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 101,
+      "check_col": 51,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 221,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 105,
+      "col": 55,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 101963,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 54481,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 105,
+      "check_col": 55,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 2485,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 108,
+      "col": 94,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 12907,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 108,
+      "check_col": 94,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 108,
+      "col": 94,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 108,
+      "check_col": 94,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 109,
+      "col": 94,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 12907,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 109,
+      "check_col": 94,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 109,
+      "col": 94,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 109,
+      "check_col": 94,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 74,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.UpdateStats",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 72
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13432,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13432,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 44974,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 74,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 3,
+          "max_steps": 857,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.ads",
+      "line": 77,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.RefillWater",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 75
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 18,
+              "time": 5.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.ads",
+      "check_line": 77,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 125,
+      "col": 10,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 125,
+      "check_col": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 3,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 127,
+      "col": 56,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5110,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 127,
+      "check_col": 56,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 127,
+      "col": 56,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 10218,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 127,
+      "check_col": 56,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 127,
+      "col": 56,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13517,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 127,
+      "check_col": 56,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 132,
+      "col": 67,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 11990,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 132,
+      "check_col": 67,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 132,
+      "col": 67,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 24236,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 132,
+      "check_col": 67,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 264,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 133,
+      "col": 56,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 30453,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 133,
+      "check_col": 56,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 442,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 133,
+      "col": 42,
+      "rule": "VC_FP_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.MoveTrain",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 45063,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 133,
+      "check_col": 42,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 859,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "test.adb",
+      "line": 71,
+      "col": 28,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "test.ConnectedCarriages",
+        "sloc": [
+          {
+            "file": "test.ads",
+            "line": 81
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 23543,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 9715,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5239,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 2967,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1494,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 780,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 392,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 192,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 82,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 42,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "test.adb",
+      "check_line": 71,
+      "check_col": 28,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 11,
+          "max_steps": 245,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "test.EmptyCarriage",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.EmptyCarriage",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.EmptyCarriage",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "test.UnloadCarriage",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 54
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "test.MaintenanceModeOff",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 69
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.UnloadCarriage",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 54
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.UnloadCarriage",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 54
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.MaintenanceModeOff",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 69
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.MaintenanceModeOff",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 69
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.LoadedRods",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 82
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.LoadedRods",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 82
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Float_Text_IO.Put",
+            "sloc": [
+              {
+                "file": "a-tiflio.ads",
+                "line": 82
+              },
+              {
+                "file": "a-flteio.ads",
+                "line": 20
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 465
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.UpdateStats",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 72
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.MoveTrain",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 78
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Ada.Float_Text_IO.Put",
+            "sloc": [
+              {
+                "file": "a-tiflio.ads",
+                "line": 82
+              },
+              {
+                "file": "a-flteio.ads",
+                "line": 20
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Ada.Text_IO.Put",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 465
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "test.UpdateStats",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 72
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Float_Text_IO.Put",
+            "sloc": [
+              {
+                "file": "a-tiflio.ads",
+                "line": 82
+              },
+              {
+                "file": "a-flteio.ads",
+                "line": 20
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 465
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.UpdateStats",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 72
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Ada.Float_Text_IO.Put",
+            "sloc": [
+              {
+                "file": "a-tiflio.ads",
+                "line": 82
+              },
+              {
+                "file": "a-flteio.ads",
+                "line": 20
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Ada.Text_IO.Put",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 465
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.UpdateStats",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 72
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.MoveTrain",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 78
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "test.RefillWater",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "test.MaintenanceModeOn",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "test.LoadCarriage",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 57
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.MaintenanceModeOn",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.RefillWater",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.RefillWater",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.MaintenanceModeOn",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.LoadCarriage",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 57
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.IsTrainMoving",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 84
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.LoadCarriage",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 57
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "test.UnloadRod",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 63
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.UnloadRod",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 63
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.UnloadRod",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 63
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.ConnectedCarriages",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 81
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.ConnectedCarriages",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 81
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "test.UpdateStats",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 72
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.IsTrainMoving",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 84
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.IsTrainMoving",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 84
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.ConnectedCarriages",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 81
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.UpdateStats",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 72
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.ConnectedCarriages",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 81
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.ConnectedCarriages",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 81
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.UpdateStats",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 72
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "test.LoadRod",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 60
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.ConnectedCarriages",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 81
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.ConnectedCarriages",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 81
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "test.LoadRod",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 60
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "test.LoadedRods",
+            "sloc": [
+              {
+                "file": "test.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "test.LoadRod",
+          "sloc": [
+            {
+              "file": "test.ads",
+              "line": 60
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 1.44460005685687E-03,
+    "globals (basic)": 1.70837007462978E-02,
+    "globals/properties (advanced)": 2.16294005513191E-02,
+    "flow analysis": 3.72978001832962E-02,
+    "codepeer results": 7.19999979992281E-06,
+    "init_why_sections": 4.17900009779260E-04,
+    "translation of standard": 2.87720002233982E-03,
+    "translation of compilation unit": 6.33888989686966E-02,
+    "proof": 1.62832570075989E+00
+  }
+}

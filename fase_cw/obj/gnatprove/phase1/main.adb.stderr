@@ -1,0 +1,6 @@
+test.ads:55:100: invalid operand types for operator "<"
+test.ads:55:100: left operand has type "RodCounter" defined at line 15
+test.ads:55:100: right operand has type "Standard.Float"
+test.ads:58:100: invalid operand types for operator "<"
+test.ads:58:100: left operand has type "RodCounter" defined at line 15
+test.ads:58:100: right operand has type "Standard.Float"

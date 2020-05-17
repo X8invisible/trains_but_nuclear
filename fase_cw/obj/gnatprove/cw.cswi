@@ -1,0 +1,7 @@
+20200508135300
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=C:\Users\Andrei\Documents\GitHub\fase_cw\obj\gnatprove\23874389.tmp

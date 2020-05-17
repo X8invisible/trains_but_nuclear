@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 120" line=" 64" >
+      <vfs_project>C:\Users\Andrei\Documents\GitHub\fase_cw\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Documents\GitHub\fase_cw\src\test.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 12" >
+      <vfs_project>C:\Users\Andrei\Documents\GitHub\fase_cw\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Documents\GitHub\fase_cw\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 76" >
+      <vfs_project>C:\Users\Andrei\Documents\GitHub\fase_cw\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Documents\GitHub\fase_cw\src\test.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 3" >
+      <vfs_project>C:\Users\Andrei\Documents\GitHub\fase_cw\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Documents\GitHub\fase_cw\src\cw.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 143" >
+      <vfs_project>C:\Users\Andrei\Documents\GitHub\fase_cw\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Documents\GitHub\fase_cw\src\cw.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Documents\GitHub\fase_cw\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Documents\GitHub\fase_cw\src\cw.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Documents\GitHub\fase_cw\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Documents\GitHub\fase_cw\src\cw.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 27" >
+      <vfs_project>C:\Users\Andrei\Documents\GitHub\fase_cw\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Documents\GitHub\fase_cw\src\cw.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 7" line=" 48" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Documents\GitHub\fase_cw\src\cw.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
